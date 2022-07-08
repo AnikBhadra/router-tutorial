@@ -11,6 +11,8 @@ function Products() {
                 <Link to="featured" >Featured</Link>
                 {/* we can not add '/featured' because it is nested link  */}
                 <Link to='new' >New</Link>
+                {/* Relative Links example */}
+                {/* {<Link to= "products/featured" >Featured</Link>} */}
             </nav>
             <Outlet />
             {/* featured and new component don't know where to render ,so we did the Outlet for rendering*/}
